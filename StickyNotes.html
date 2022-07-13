@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style>
+		#first{
+			background-color: hotpink;
+			text-align: center;
+			border-style: double;
+			width: 300px;
+			height: 200px;
+			margin-top: 50px;
+			
+			margin-left: 35%;
+			
+		}
+		#Second{
+			text-align: center;
+			border-style: double;
+			width: 60%;
+			height: 300px;
+			margin-top: 50px;
+			
+			margin-left: 20%;
+			
+		}
+		button{
+			background-color: orange;
+		}
+		table{
+			
+			border: 1px solid black;
+		}
+		h3{
+			text-align: center;
+			text-decoration-color: orange;
+			text-decoration-style: solid;
+		}
+		.todosstyle{
+			
+			width: 150px;
+			height: 150px;
+			margin-top: 20px;
+			margin-left: 45%;
+
+
+		}h4{
+			color: red;
+		}
+
+	</style>
+
+	
+</head>
+<body>
+	<div class ="container" id="first"><br><br>
+		<textarea id="title"  rows="1" placeholder="Title" required></textarea><br><br>
+         <textarea id="detail"  rows="4" placeholder="todo details" required></textarea> <br><br>
+
+		<button id="button">Add Todo</button>
+		<br>
+	</div>
+
+	<h3 id="nodata"></h3>
+
+	<div class="todosstyle" id="todos"><br>
+		<h4> ::: Details of Todo :::</h4>
+
+		<div id="line"></div>
+		<div id = "history"></div>
+		</div>
+
+</body>
+<script type="text/javascript " src="javascript/StickyApp.js"></script>
+</html>
